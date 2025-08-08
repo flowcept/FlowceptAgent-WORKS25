@@ -1,0 +1,37 @@
+# These are two examples of what your agent: should look like in your flowcept code when running the model / swapping models between LLaMA and GPT.
+# Of course you will have to add in your api key and server url and service provider. Those will be left blank. 
+# When wanting to use LLaMA use the 
+# Here you can also change the temperature and other configurations if desired.
+
+# LLaMA AGENT
+agent:
+ enabled: true
+ mcp_host: localhost
+ mcp_port: 8000
+ llm_server_url: 'x'
+ api_key: x
+ model: 'Meta-Llama-3-70B-Instruct' # left as an example 
+ service_provider: 'sambanova' # left as an example, only accessible at ORNL 
+ model_kwargs: {
+   "do_sample": True,
+   "max_tokens": 5000,
+   "temperature": 0.00,
+   "process_prompt": True,
+   "top_p": 1.0,
+ }
+
+
+# GPT AGENT
+agent:
+  enabled: true
+  mcp_host: localhost
+  mcp_port: 8000
+  llm_server_url: 'x'
+  api_key: x
+  model: 'gpt-4' # left as an example 
+  service_provider: 'azure' # left as an example 
+  model_kwargs: {
+    "api_version": "2023-05-15",
+    "temperature": 0.00,
+    "top_p": 1.0,
+  }

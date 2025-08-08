@@ -1,0 +1,311 @@
+Judge,query_type,Model,Data Type,median_L_score
+GPT,OLTP,LLama 3-70B,Control Flow,0.95
+GPT,OLTP,LLama 3-70B,Scheduling,0.95
+GPT,OLTP,LLama 3-8B,Control Flow,1.0
+GPT,OLTP,LLama 3-8B,Scheduling,1.0
+GPT,OLTP,Claude,Control Flow,1.0
+GPT,OLTP,Claude,Scheduling,1.0
+GPT,OLTP,Gemini,Control Flow,1.0
+GPT,OLTP,Gemini,Scheduling,1.0
+GPT,OLTP,GPT,Control Flow,0.95
+GPT,OLTP,GPT,Scheduling,0.95
+GPT,OLTP,LLama 3-70B,Data Flow,1.0
+GPT,OLTP,LLama 3-8B,Data Flow,0.8
+GPT,OLTP,Claude,Data Flow,1.0
+GPT,OLTP,Gemini,Data Flow,1.0
+GPT,OLTP,GPT,Data Flow,1.0
+GPT,OLTP,LLama 3-70B,Telemetry,0.8
+GPT,OLTP,LLama 3-8B,Telemetry,1.0
+GPT,OLTP,Claude,Telemetry,1.0
+GPT,OLTP,Gemini,Telemetry,1.0
+GPT,OLTP,GPT,Telemetry,1.0
+GPT,OLAP,LLama 3-70B,Telemetry,0.8
+GPT,OLAP,LLama 3-8B,Telemetry,0.9
+GPT,OLAP,Claude,Telemetry,1.0
+GPT,OLAP,Gemini,Telemetry,0.9
+GPT,OLAP,GPT,Telemetry,0.9
+GPT,OLAP,LLama 3-70B,Telemetry,0.8
+GPT,OLAP,LLama 3-8B,Telemetry,0.5
+GPT,OLAP,Claude,Telemetry,0.95
+GPT,OLAP,Gemini,Telemetry,0.5
+GPT,OLAP,GPT,Telemetry,1.0
+GPT,OLAP,LLama 3-70B,Scheduling,1.0
+GPT,OLAP,LLama 3-8B,Scheduling,1.0
+GPT,OLAP,Claude,Scheduling,0.9
+GPT,OLAP,Gemini,Scheduling,1.0
+GPT,OLAP,GPT,Scheduling,1.0
+GPT,OLAP,LLama 3-70B,Telemetry,0.95
+GPT,OLAP,LLama 3-8B,Telemetry,0.95
+GPT,OLAP,Claude,Telemetry,1.0
+GPT,OLAP,Gemini,Telemetry,1.0
+GPT,OLAP,GPT,Telemetry,1.0
+GPT,OLAP,LLama 3-70B,Data Flow,1.0
+GPT,OLAP,LLama 3-70B,Control Flow,1.0
+GPT,OLAP,LLama 3-8B,Data Flow,1.0
+GPT,OLAP,LLama 3-8B,Control Flow,1.0
+GPT,OLAP,Claude,Data Flow,1.0
+GPT,OLAP,Claude,Control Flow,1.0
+GPT,OLAP,Gemini,Data Flow,1.0
+GPT,OLAP,Gemini,Control Flow,1.0
+GPT,OLAP,GPT,Data Flow,1.0
+GPT,OLAP,GPT,Control Flow,1.0
+GPT,OLTP,LLama 3-70B,Data Flow,0.9
+GPT,OLTP,LLama 3-70B,Control Flow,0.9
+GPT,OLTP,LLama 3-8B,Data Flow,0.8
+GPT,OLTP,LLama 3-8B,Control Flow,0.8
+GPT,OLTP,Claude,Data Flow,1.0
+GPT,OLTP,Claude,Control Flow,1.0
+GPT,OLTP,Gemini,Data Flow,0.9
+GPT,OLTP,Gemini,Control Flow,0.9
+GPT,OLTP,GPT,Data Flow,1.0
+GPT,OLTP,GPT,Control Flow,1.0
+GPT,OLTP,LLama 3-70B,Scheduling,1.0
+GPT,OLTP,LLama 3-70B,Telemetry,1.0
+GPT,OLTP,LLama 3-8B,Scheduling,1.0
+GPT,OLTP,LLama 3-8B,Telemetry,1.0
+GPT,OLTP,Claude,Scheduling,1.0
+GPT,OLTP,Claude,Telemetry,1.0
+GPT,OLTP,Gemini,Scheduling,0.8
+GPT,OLTP,Gemini,Telemetry,0.8
+GPT,OLTP,GPT,Scheduling,1.0
+GPT,OLTP,GPT,Telemetry,1.0
+GPT,OLAP,LLama 3-70B,Data Flow,0.85
+GPT,OLAP,LLama 3-70B,Control Flow,0.85
+GPT,OLAP,LLama 3-70B,Scheduling,0.85
+GPT,OLAP,LLama 3-70B,Telemetry,0.85
+GPT,OLAP,LLama 3-8B,Data Flow,0.6
+GPT,OLAP,LLama 3-8B,Control Flow,0.6
+GPT,OLAP,LLama 3-8B,Scheduling,0.6
+GPT,OLAP,LLama 3-8B,Telemetry,0.6
+GPT,OLAP,Claude,Data Flow,0.95
+GPT,OLAP,Claude,Control Flow,0.95
+GPT,OLAP,Claude,Scheduling,0.95
+GPT,OLAP,Claude,Telemetry,0.95
+GPT,OLAP,Gemini,Data Flow,0.8
+GPT,OLAP,Gemini,Control Flow,0.8
+GPT,OLAP,Gemini,Scheduling,0.8
+GPT,OLAP,Gemini,Telemetry,0.8
+GPT,OLAP,GPT,Data Flow,0.95
+GPT,OLAP,GPT,Control Flow,0.95
+GPT,OLAP,GPT,Scheduling,0.95
+GPT,OLAP,GPT,Telemetry,0.95
+GPT,OLTP,LLama 3-70B,Data Flow,0.95
+GPT,OLTP,LLama 3-70B,Control Flow,0.95
+GPT,OLTP,LLama 3-70B,Scheduling,0.95
+GPT,OLTP,LLama 3-70B,Telemetry,0.95
+GPT,OLTP,LLama 3-8B,Data Flow,0.95
+GPT,OLTP,LLama 3-8B,Control Flow,0.95
+GPT,OLTP,LLama 3-8B,Scheduling,0.95
+GPT,OLTP,LLama 3-8B,Telemetry,0.95
+GPT,OLTP,Claude,Data Flow,1.0
+GPT,OLTP,Claude,Control Flow,1.0
+GPT,OLTP,Claude,Scheduling,1.0
+GPT,OLTP,Claude,Telemetry,1.0
+GPT,OLTP,Gemini,Data Flow,0.8
+GPT,OLTP,Gemini,Control Flow,0.8
+GPT,OLTP,Gemini,Scheduling,0.8
+GPT,OLTP,Gemini,Telemetry,0.8
+GPT,OLTP,GPT,Data Flow,1.0
+GPT,OLTP,GPT,Control Flow,1.0
+GPT,OLTP,GPT,Scheduling,1.0
+GPT,OLTP,GPT,Telemetry,1.0
+GPT,OLAP,LLama 3-70B,Control Flow,1.0
+GPT,OLAP,LLama 3-70B,Scheduling,1.0
+GPT,OLAP,LLama 3-8B,Control Flow,0.5
+GPT,OLAP,LLama 3-8B,Scheduling,0.5
+GPT,OLAP,Claude,Control Flow,1.0
+GPT,OLAP,Claude,Scheduling,1.0
+GPT,OLAP,Gemini,Control Flow,0.7
+GPT,OLAP,Gemini,Scheduling,0.7
+GPT,OLAP,GPT,Control Flow,1.0
+GPT,OLAP,GPT,Scheduling,1.0
+GPT,OLAP,LLama 3-70B,Data Flow,1.0
+GPT,OLAP,LLama 3-8B,Data Flow,1.0
+GPT,OLAP,Claude,Data Flow,1.0
+GPT,OLAP,Gemini,Data Flow,0.8
+GPT,OLAP,GPT,Data Flow,1.0
+GPT,OLTP,LLama 3-70B,Scheduling,1.0
+GPT,OLTP,LLama 3-8B,Scheduling,1.0
+GPT,OLTP,Claude,Scheduling,1.0
+GPT,OLTP,Gemini,Scheduling,1.0
+GPT,OLTP,GPT,Scheduling,1.0
+GPT,OLAP,LLama 3-70B,Control Flow,0.8
+GPT,OLAP,LLama 3-8B,Control Flow,0.5
+GPT,OLAP,Claude,Control Flow,0.8
+GPT,OLAP,Gemini,Control Flow,0.5
+GPT,OLAP,GPT,Control Flow,0.8
+GPT,OLAP,LLama 3-70B,Scheduling,1.0
+GPT,OLAP,LLama 3-8B,Scheduling,1.0
+GPT,OLAP,Claude,Scheduling,0.9
+GPT,OLAP,Gemini,Scheduling,0.9
+GPT,OLAP,GPT,Scheduling,0.8
+GPT,OLTP,LLama 3-70B,Data Flow,0.0
+GPT,OLTP,LLama 3-8B,Data Flow,0.0
+GPT,OLTP,Claude,Data Flow,0.8
+GPT,OLTP,Gemini,Data Flow,0.8
+GPT,OLTP,GPT,Data Flow,1.0
+GPT,OLTP,LLama 3-70B,Telemetry,1.0
+GPT,OLTP,LLama 3-8B,Telemetry,0.5
+GPT,OLTP,Claude,Telemetry,1.0
+GPT,OLTP,Gemini,Telemetry,1.0
+GPT,OLTP,GPT,Telemetry,0.95
+GPT,OLTP,LLama 3-70B,Telemetry,0.8
+GPT,OLTP,LLama 3-8B,Telemetry,0.5
+GPT,OLTP,Claude,Telemetry,0.95
+GPT,OLTP,Gemini,Telemetry,0.95
+GPT,OLTP,GPT,Telemetry,1.0
+CLAUDE,OLTP,LLama 3-70B,Control Flow,0.85
+CLAUDE,OLTP,LLama 3-70B,Scheduling,0.85
+CLAUDE,OLTP,LLama 3-8B,Control Flow,1.0
+CLAUDE,OLTP,LLama 3-8B,Scheduling,1.0
+CLAUDE,OLTP,Claude,Control Flow,1.0
+CLAUDE,OLTP,Claude,Scheduling,1.0
+CLAUDE,OLTP,Gemini,Control Flow,1.0
+CLAUDE,OLTP,Gemini,Scheduling,1.0
+CLAUDE,OLTP,GPT,Control Flow,0.85
+CLAUDE,OLTP,GPT,Scheduling,0.85
+CLAUDE,OLTP,LLama 3-70B,Data Flow,0.95
+CLAUDE,OLTP,LLama 3-8B,Data Flow,0.85
+CLAUDE,OLTP,Claude,Data Flow,0.95
+CLAUDE,OLTP,Gemini,Data Flow,1.0
+CLAUDE,OLTP,GPT,Data Flow,0.95
+CLAUDE,OLTP,LLama 3-70B,Telemetry,0.85
+CLAUDE,OLTP,LLama 3-8B,Telemetry,1.0
+CLAUDE,OLTP,Claude,Telemetry,1.0
+CLAUDE,OLTP,Gemini,Telemetry,1.0
+CLAUDE,OLTP,GPT,Telemetry,1.0
+CLAUDE,OLAP,LLama 3-70B,Telemetry,0.85
+CLAUDE,OLAP,LLama 3-8B,Telemetry,0.85
+CLAUDE,OLAP,Claude,Telemetry,0.95
+CLAUDE,OLAP,Gemini,Telemetry,0.85
+CLAUDE,OLAP,GPT,Telemetry,0.85
+CLAUDE,OLAP,LLama 3-70B,Telemetry,0.85
+CLAUDE,OLAP,LLama 3-8B,Telemetry,0.2
+CLAUDE,OLAP,Claude,Telemetry,0.95
+CLAUDE,OLAP,Gemini,Telemetry,0.15
+CLAUDE,OLAP,GPT,Telemetry,0.95
+CLAUDE,OLAP,LLama 3-70B,Scheduling,1.0
+CLAUDE,OLAP,LLama 3-8B,Scheduling,1.0
+CLAUDE,OLAP,Claude,Scheduling,0.85
+CLAUDE,OLAP,Gemini,Scheduling,1.0
+CLAUDE,OLAP,GPT,Scheduling,1.0
+CLAUDE,OLAP,LLama 3-70B,Telemetry,0.95
+CLAUDE,OLAP,LLama 3-8B,Telemetry,0.95
+CLAUDE,OLAP,Claude,Telemetry,1.0
+CLAUDE,OLAP,Gemini,Telemetry,1.0
+CLAUDE,OLAP,GPT,Telemetry,1.0
+CLAUDE,OLAP,LLama 3-70B,Data Flow,1.0
+CLAUDE,OLAP,LLama 3-70B,Control Flow,1.0
+CLAUDE,OLAP,LLama 3-8B,Data Flow,1.0
+CLAUDE,OLAP,LLama 3-8B,Control Flow,1.0
+CLAUDE,OLAP,Claude,Data Flow,1.0
+CLAUDE,OLAP,Claude,Control Flow,1.0
+CLAUDE,OLAP,Gemini,Data Flow,1.0
+CLAUDE,OLAP,Gemini,Control Flow,1.0
+CLAUDE,OLAP,GPT,Data Flow,1.0
+CLAUDE,OLAP,GPT,Control Flow,1.0
+CLAUDE,OLTP,LLama 3-70B,Data Flow,0.85
+CLAUDE,OLTP,LLama 3-70B,Control Flow,0.85
+CLAUDE,OLTP,LLama 3-8B,Data Flow,0.25
+CLAUDE,OLTP,LLama 3-8B,Control Flow,0.25
+CLAUDE,OLTP,Claude,Data Flow,0.85
+CLAUDE,OLTP,Claude,Control Flow,0.85
+CLAUDE,OLTP,Gemini,Data Flow,0.85
+CLAUDE,OLTP,Gemini,Control Flow,0.85
+CLAUDE,OLTP,GPT,Data Flow,0.85
+CLAUDE,OLTP,GPT,Control Flow,0.85
+CLAUDE,OLTP,LLama 3-70B,Scheduling,1.0
+CLAUDE,OLTP,LLama 3-70B,Telemetry,1.0
+CLAUDE,OLTP,LLama 3-8B,Scheduling,1.0
+CLAUDE,OLTP,LLama 3-8B,Telemetry,1.0
+CLAUDE,OLTP,Claude,Scheduling,1.0
+CLAUDE,OLTP,Claude,Telemetry,1.0
+CLAUDE,OLTP,Gemini,Scheduling,0.85
+CLAUDE,OLTP,Gemini,Telemetry,0.85
+CLAUDE,OLTP,GPT,Scheduling,1.0
+CLAUDE,OLTP,GPT,Telemetry,1.0
+CLAUDE,OLAP,LLama 3-70B,Data Flow,0.75
+CLAUDE,OLAP,LLama 3-70B,Control Flow,0.75
+CLAUDE,OLAP,LLama 3-70B,Scheduling,0.75
+CLAUDE,OLAP,LLama 3-70B,Telemetry,0.75
+CLAUDE,OLAP,LLama 3-8B,Data Flow,0.25
+CLAUDE,OLAP,LLama 3-8B,Control Flow,0.25
+CLAUDE,OLAP,LLama 3-8B,Scheduling,0.25
+CLAUDE,OLAP,LLama 3-8B,Telemetry,0.25
+CLAUDE,OLAP,Claude,Data Flow,0.92
+CLAUDE,OLAP,Claude,Control Flow,0.92
+CLAUDE,OLAP,Claude,Scheduling,0.92
+CLAUDE,OLAP,Claude,Telemetry,0.92
+CLAUDE,OLAP,Gemini,Data Flow,0.85
+CLAUDE,OLAP,Gemini,Control Flow,0.85
+CLAUDE,OLAP,Gemini,Scheduling,0.85
+CLAUDE,OLAP,Gemini,Telemetry,0.85
+CLAUDE,OLAP,GPT,Data Flow,0.82
+CLAUDE,OLAP,GPT,Control Flow,0.82
+CLAUDE,OLAP,GPT,Scheduling,0.82
+CLAUDE,OLAP,GPT,Telemetry,0.82
+CLAUDE,OLTP,LLama 3-70B,Data Flow,0.85
+CLAUDE,OLTP,LLama 3-70B,Control Flow,0.85
+CLAUDE,OLTP,LLama 3-70B,Scheduling,0.85
+CLAUDE,OLTP,LLama 3-70B,Telemetry,0.85
+CLAUDE,OLTP,LLama 3-8B,Data Flow,0.85
+CLAUDE,OLTP,LLama 3-8B,Control Flow,0.85
+CLAUDE,OLTP,LLama 3-8B,Scheduling,0.85
+CLAUDE,OLTP,LLama 3-8B,Telemetry,0.85
+CLAUDE,OLTP,Claude,Data Flow,0.92
+CLAUDE,OLTP,Claude,Control Flow,0.92
+CLAUDE,OLTP,Claude,Scheduling,0.92
+CLAUDE,OLTP,Claude,Telemetry,0.92
+CLAUDE,OLTP,Gemini,Data Flow,0.25
+CLAUDE,OLTP,Gemini,Control Flow,0.25
+CLAUDE,OLTP,Gemini,Scheduling,0.25
+CLAUDE,OLTP,Gemini,Telemetry,0.25
+CLAUDE,OLTP,GPT,Data Flow,0.85
+CLAUDE,OLTP,GPT,Control Flow,0.85
+CLAUDE,OLTP,GPT,Scheduling,0.85
+CLAUDE,OLTP,GPT,Telemetry,0.85
+CLAUDE,OLAP,LLama 3-70B,Control Flow,0.95
+CLAUDE,OLAP,LLama 3-70B,Scheduling,0.95
+CLAUDE,OLAP,LLama 3-8B,Control Flow,0.15
+CLAUDE,OLAP,LLama 3-8B,Scheduling,0.15
+CLAUDE,OLAP,Claude,Control Flow,0.95
+CLAUDE,OLAP,Claude,Scheduling,0.95
+CLAUDE,OLAP,Gemini,Control Flow,0.3
+CLAUDE,OLAP,Gemini,Scheduling,0.3
+CLAUDE,OLAP,GPT,Control Flow,1.0
+CLAUDE,OLAP,GPT,Scheduling,1.0
+CLAUDE,OLAP,LLama 3-70B,Data Flow,0.85
+CLAUDE,OLAP,LLama 3-8B,Data Flow,1.0
+CLAUDE,OLAP,Claude,Data Flow,1.0
+CLAUDE,OLAP,Gemini,Data Flow,0.3
+CLAUDE,OLAP,GPT,Data Flow,1.0
+CLAUDE,OLTP,LLama 3-70B,Scheduling,1.0
+CLAUDE,OLTP,LLama 3-8B,Scheduling,1.0
+CLAUDE,OLTP,Claude,Scheduling,1.0
+CLAUDE,OLTP,Gemini,Scheduling,1.0
+CLAUDE,OLTP,GPT,Scheduling,1.0
+CLAUDE,OLAP,LLama 3-70B,Control Flow,0.85
+CLAUDE,OLAP,LLama 3-8B,Control Flow,0.25
+CLAUDE,OLAP,Claude,Control Flow,0.85
+CLAUDE,OLAP,Gemini,Control Flow,0.2
+CLAUDE,OLAP,GPT,Control Flow,0.85
+CLAUDE,OLAP,LLama 3-70B,Scheduling,0.85
+CLAUDE,OLAP,LLama 3-8B,Scheduling,0.85
+CLAUDE,OLAP,Claude,Scheduling,0.85
+CLAUDE,OLAP,Gemini,Scheduling,0.85
+CLAUDE,OLAP,GPT,Scheduling,0.85
+CLAUDE,OLTP,LLama 3-70B,Data Flow,0.25
+CLAUDE,OLTP,LLama 3-8B,Data Flow,0.25
+CLAUDE,OLTP,Claude,Data Flow,0.85
+CLAUDE,OLTP,Gemini,Data Flow,0.85
+CLAUDE,OLTP,GPT,Data Flow,0.85
+CLAUDE,OLTP,LLama 3-70B,Telemetry,0.95
+CLAUDE,OLTP,LLama 3-8B,Telemetry,0.2
+CLAUDE,OLTP,Claude,Telemetry,0.95
+CLAUDE,OLTP,Gemini,Telemetry,0.95
+CLAUDE,OLTP,GPT,Telemetry,0.85
+CLAUDE,OLTP,LLama 3-70B,Telemetry,0.25
+CLAUDE,OLTP,LLama 3-8B,Telemetry,0.25
+CLAUDE,OLTP,Claude,Telemetry,0.85
+CLAUDE,OLTP,Gemini,Telemetry,0.85
+CLAUDE,OLTP,GPT,Telemetry,0.85
