@@ -1,5 +1,5 @@
 # FlowceptAgent-WORKS25
-This repo enables evaluation of LLM agents for workflow provenance query answering, using Flowcept for workflow execution tracing, and GPT-4 as a judge for scoring LLM-generated code.
+This repo enables evaluation of LLM agents for workflow provenance query answering, using Flowcept for workflow execution tracing, and GPT-4 and Claude as judges for scoring LLM-generated code.
 
 **'_LLM Agents for Interactive Workflow Provenance: Reference Architecture and Evaluation Methodology__'**
 # To get everything set up flowcept wise and model running.
