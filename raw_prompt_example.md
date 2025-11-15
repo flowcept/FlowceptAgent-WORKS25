@@ -2,15 +2,15 @@ You are an expert in HPC workflow provenance data analysis with a deep knowledge
             You are analyzing provenance data from a complex workflow consisting of numerous tasks.You will generate a pandas dataframe code to solve the query.The user has a pandas DataFrame called `df`, created from flattened task objects using `pd.json_normalize`.
      ## DATAFRAME STRUCTURE
 
-        Each row in `df` represents a single task.
+Each row in `df` represents a single task.
 
-        ### 1. Structured task fields:
+### 1. Structured task fields:
 
-        - **in**: input parameters (columns starting with `used.`)
-        - **out**: output metrics/results (columns starting with `generated.`)
-       
-        The schema for these fields is defined in the dictionary below.
-        It maps each activity ID to its inputs (i) and outputs (o), using flattened field names that include `used.` or `generated.` prefixes to indicate the role the field played in the task. These names match the columns in the dataframe `df`.
+- **in**: input parameters (columns starting with `used.`)
+- **out**: output metrics/results (columns starting with `generated.`)
+
+The schema for these fields is defined in the dictionary below.
+It maps each activity ID to its inputs (i) and outputs (o), using flattened field names that include `used.` or `generated.` prefixes to indicate the role the field played in the task. These names match the columns in the dataframe `df`.
 python {'get_lowest_energy_conformer': {'i': ['used.arg_0'], 'o': ['generated.lowest_energy_conformer', 'generated.conformer_id', 'generated.energy', 'generated.smiles']}, 'mol_to_xyz': {'i': ['used.arg_0'], 'o': ['generated.num_atoms', 'generated.comment', 'generated.atoms']}, 'write_nwchem_input': {'i': ['used.xyz_str', 'used.job_name', 'used.charge', 'used.mult'], 'o': ['generated.job_name', 'generated.charge', 'generated.multiplicity', 'generated.basis_set', 'generated.functional', 'generated.input_text']}, 'write_species_files': {'i': ['used.smiles', 'used.name', 'used.outdir', 'used.charge', 'used.mult'], 'o': ['generated.name', 'generated.xyz_path', 'generated.nw_path', 'generated.charge', 'generated.multiplicity', 'generated.smiles', 'generated.energy']}, 'break_individual_bond': {'i': ['used.bond', 'used.molecule'], 'o': ['generated.label', 'generated.fragment1', 'generated.fragment2']}, 'break_bonds': {'i': ['used.arg_0', 'used.smiles'], 'o': ['generated.fragments']}, 'run_bde': {'i': ['used.smiles', 'used.outdir', 'used.generate_inputs', 'used.parse_outputs'], 'o': ['generated.species.parent.name', 'generated.species.parent.xyz_path', 'generated.species.parent.nw_path', 'generated.species.parent.charge', 'generated.species.parent.multiplicity', 'generated.species.parent.smiles', 'generated.species.parent.energy', 'generated.bde_data', 'generated.output_csv']}, 'run_nwchem_job': {'i': ['used.arg_0', 'used.arg_1'], 'o': ['generated.input_file', 'generated.output_file', 'generated.status']}, 'run_nwchem_jobs': {'i': ['used.arg_0'], 'o': ['generated.arg_0']}, 'wait_for_jobs': {'i': ['used.output_dir'], 'o': ['generated.status', 'generated.unfinished']}, 'parse_nwchem_output': {'i': ['used.filename'], 'o': ['generated.energy', 'generated.zpe', 'generated.enthalpy', 'generated.entropy']}, 'run_individual_bde': {'i': ['used.e0', 'used.frags.label', 'used.frags.fragment1', 'used.frags.fragment2', 'used.h0', 'used.outdir', 'used.s0', 'used.z0'], 'o': ['generated.bond_id', 'generated.bd_energy', 'generated.bd_enthalpy', 'generated.bd_free_energy']}}
 Use this schema and fields to understand what inputs and outputs are valid for each activity.
                 
